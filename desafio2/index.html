@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clínica Odontológica XYZ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="header.jpg" alt="Header da Clínica">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="horario.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Página Principal</h1>
+        <p>Bem-vindo(a) à Clínica Odontológica XYZ! Estamos aqui para cuidar
+        <footer>
+            <p>Entre em contato conosco:</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Whatsapp: (11) 98765-4321</p>
+            <p>Endereço: Rua Exemplo, 123 - São Paulo/SP</p>
+        </footer>
+
+        <!-- Página Sobre a Clínica -->
+        <section>
+            <h1>Sobre a Clínica</h1>
+            <p>A Clínica Odontológica XYZ foi fundada em 2005 e desde então vem oferecendo serviços de qualidade e
+                atendimento personalizado aos seus pacientes. Nossa equipe é formada por dentistas altamente capacitados
+                e estamos sempre em busca de atualizações e novidades na área da odontologia para oferecermos o melhor
+                aos nossos pacientes.</p>
+        </section>
+
+        <!-- Página Horário de Atendimento -->
+        <section>
+            <h1>Horário de Atendimento</h1>
+            <p>Nossa clínica funciona de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 12h. Confira abaixo os
+                serviços que oferecemos e seus respectivos preços:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Limpeza</td>
+                        <td>R$ 100,00</td>
+                        <td>R$ 120,00</td>
+                    </tr>
+                    <tr>
+                        <td>Restauração</td>
+                        <td>R$ 150,00</td>
+                        <td>R$ 180,00</td>
+                    </tr>
+                    <tr>
+                        <td>Extração</td>
+                        <td>R$ 200,00</td>
+                        <td>R$ 240,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Página Contato -->
+        <section>
+            <h1>Contato</h1>
+            <p>Entre em contato conosco através do formulário abaixo ou pelos nossos telefones:</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Whatsapp: (11) 98765-4321</p>
+            <p>Endereço: Rua Exemplo, 123 - São Paulo/SP</p>
+
+            <form action="enviar.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.929882220357!2d-46.63373868502599!3d-23.550482784684893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b6c8e6b1a53%3A0x408d820d8eeecfbf!2sRua%20Exemplo%2C%20123%20-%20Vila%20Exemplo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2000000-000!5e0!3m2!1spt-BR!2sbr!4v1645829639082!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
